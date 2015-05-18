@@ -2,7 +2,7 @@
 
 {% block content %}
 
-	<div class="alert alert-error">{{ exception.getMessage() }}</div>
+	<div class="alert alert-danger">{{ exception.getMessage() }}</div>
 	{{ exception.getTraceAsString()|e|nl2br }}<br>
 
 {% endblock %}
