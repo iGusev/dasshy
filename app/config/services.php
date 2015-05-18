@@ -58,7 +58,7 @@ $di['assets'] = function() {
  */
 $di['flash'] = function(){
 	return new Flash(array(
-		'error' => 'alert alert-error',
+		'error' => 'alert alert-danger',
 		'success' => 'alert alert-success',
 		'notice' => 'alert alert-info',
 	));
@@ -69,7 +69,7 @@ $di['flash'] = function(){
  */
 $di['flashDirect'] = function(){
 	return new FlashDirect(array(
-		'error' => 'alert alert-error',
+		'error' => 'alert alert-danger',
 		'success' => 'alert alert-success',
 		'notice' => 'alert alert-info',
 	));
